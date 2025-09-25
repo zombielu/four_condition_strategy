@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ta-lib = "0.6.4"
+pandas = "2.3.1"
+backtesting = "0.6.4"
+plotly = "*"
+pyarrow = "*"
+kaleido = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
+python_full_version = "3.13.0"
